@@ -1,27 +1,27 @@
-yournumber = int(input("Введите число: "))
+yournumber = float(input("Введите число: "))
 operator=[0]
 while operator[0] != '=':
     operator = input().split()
     if operator[0] == '+':
-        yournumber=yournumber+int(operator[1])
+        yournumber=yournumber+float(operator[1])
         print (yournumber)
     elif operator[0] == '-':
-        yournumber=yournumber-int(operator[1])
+        yournumber=yournumber-float(operator[1])
         print(yournumber)
     elif operator[0] == '*':
-        yournumber=yournumber*int(operator[1])
+        yournumber=yournumber*float(operator[1])
         print(yournumber)
     elif operator[0] == '/':
-        yournumber=yournumber/int(operator[1])
+        yournumber=yournumber/float(operator[1])
         print(yournumber)
     elif operator[0] == '//':
-        yournumber=yournumber//int(operator[1])
+        yournumber=yournumber//float(operator[1])
         print(yournumber)
     elif operator[0] == '%':
-        yournumber=yournumber%int(operator[1])
+        yournumber=yournumber%float(operator[1])
         print(yournumber)
     elif operator[0] == '**':
-        yournumber=yournumber**int(operator[1])
+        yournumber=yournumber**float(operator[1])
         print(yournumber)
     elif operator[0] == '=':
         break
